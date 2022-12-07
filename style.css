@@ -1,0 +1,75 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Ariel, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #ffffff;
+}
+body {
+margin: 0;
+}
+.blacklives {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+
+
+.socials .container ul {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+    display: flex;
+    justify-content: right;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.container-header .row > div img {
+    margin-top: -6rem;
+    margin-bottom: -4rem;
+    max-width: 110%;
+}
+
+img {
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 0;
+}
